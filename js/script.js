@@ -35,7 +35,6 @@ window.addEventListener("keydown", (start) =>{
     }
 });
 
-
     //jump Your Character
 window.addEventListener("keydown", (e) => {
     //    console.log(e);
