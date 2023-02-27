@@ -58,14 +58,14 @@ let result = setInterval(() => {
     let blockLeft = parseInt(getComputedStyle(block).getPropertyValue("left"));
    
 
-    if (dinoBottom <= 90 && blockLeft >= 20 && blockLeft <= 145) {
-        //        console.log("Game Over");
+//     if (dinoBottom <= 90 && blockLeft >= 20 && blockLeft <= 145) {
+//         //        console.log("Game Over");
 
-        gameOver.style.display = "block";
-        block.classList.remove("blockActive");
-        road.firstElementChild.style.animation = "none";
-        cloud.firstElementChild.style.animation = "none";
-        clearInterval(interval);
-        playerScore = 0;
-    }
-}, 10);
+//         gameOver.style.display = "block";
+//         block.classList.remove("blockActive");
+//         road.firstElementChild.style.animation = "none";
+//         cloud.firstElementChild.style.animation = "none";
+//         clearInterval(interval);
+//         playerScore = 0;
+//     }
+// }, 10);
